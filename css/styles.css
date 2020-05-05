@@ -1,0 +1,1309 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html,
+body,
+head,
+footer {
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5f6f;
+}
+
+.btn-outline-warning {
+    color: #ff7200 !important;
+    border: 3px solid #ff7200;
+    font-weight: bolder;
+}
+
+.btn-outline-warning:hover {
+    color: white !important;
+    background-color: #ff7200 !important;
+    border: 3px solid #ff7200;
+}
+
+.container-fluid-navbar {
+    border-bottom: #ff7200 2px solid;
+}
+
+.navbar {
+    background-color: #0c2d6b !important;
+    font-size: 15px;
+}
+
+.navbar a {
+    color: white !important;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.navbar ul a:hover {
+    color: #ff7200 !important;
+    transition: 0.2s;
+}
+
+.btn-danger {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    background-color: #0c2d6b !important;
+    transition-delay: 0.2s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+header {
+    padding: 0px;
+    background-color: #0c2b6d;
+}
+
+.container-fluid-under-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid-under-header a {
+    color: #e3374e;
+}
+
+.container-fluid-under-header a:hover {
+    text-decoration: none;
+}
+
+.header-image {
+    height: 245px;
+    width: 245px;
+    margin: 40px;
+}
+
+.container__logo-Ecosystem {
+    padding-bottom: 50px;
+}
+
+.span__logo img {
+    width: 120px;
+    height: 80px;
+    margin-right: 80px;
+}
+
+.span__logo {
+    padding-inline-start: 80px;
+    padding-bottom: 30px;
+}
+
+.span__logo2 img {
+    margin-right: 35px;
+    margin-bottom: 50px;
+}
+
+.row__comment img {
+    width: 150px;
+}
+
+.row__comment p {
+    font-size: 25px;
+}
+
+.row__comment {
+    padding-bottom: 5rem;
+}
+
+.sectionbar-MainIndustries {
+    background-image: url('/images/main-Industries/background-grey.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+.container-fluid-header2 {
+    padding-top: 80px;
+    background-image: url('/images/home/22130\ [Converted].png');
+    background-size: cover;
+    padding-bottom: 80px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.topbar-Ourplatform {
+    background-image: url('/images/Our-platform/navbar-header/Solutions_Page_Header_Image.webp');
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+}
+
+.topbar-Indoormapping {
+    background-image: url('/images/Indoor-Maping/website-hero-indoormapping.jpg');
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+}
+
+.topbar-Indoorpositioning {
+    background-image: url('/images/Indoor-Positioning/header-background.png');
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+}
+
+.topbar-MainUsecase {
+    background-image: url('/images/main-Use__Case/website-hero-usecases-hero-bg-2722.jpg');
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+}
+
+.topbar-Wayfinding {
+    background-image: url('/images/Way-finding/usecase-subpages-topbanner-wayfinding.jpg');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Outdoorindoor {
+    background-image: url('/images/Outdorr-Indoor/usecase-subpages-mainimg-outdoorIndoor.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+.topbar-Assettracking {
+    background-image: url('/images/Asset-Tracking/usecase-subpages-mainimg-assettracking.webp');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Mapsprofiles {
+    background-image: url('/images/Maps-Rpofile/usecase-subpages-topbanner-mapprofiles.png');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Proximitymessaging {
+    background-image: url('/images/Proximity-Messaging/usecase-subpages-mainimg-proximityservices.png');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Geofencing {
+    background-image: url('/images/Geofencing/usecase-subpages-topbanner-geofencing.webp');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Locationsharing {
+    background-image: url('/images/Location-Sharing/usecase-subpages-topbanner-indoorlocationsharing.jpg');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Intelligentparking {
+    background-image: url('/images/Intelligent-Parking/usecase-subpages-topbanner-intelligentparking.png');
+    width: 100%;
+    height: 350px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Businessintellgience {
+    background-image: url('/images/Building-Energy-Effciency/usecase-subpages-topbanner-buildingfacilitiesmanagement.webp');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-Security {
+    background-image: url('/images/Secutity/usecase-subpages-topbanner-security.jpg');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-BEE {
+    background-image: url('/images/Building-Energy-Effciency/usecase-subpages-topbanner-buildingfacilitiesmanagement.webp');
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+}
+
+.topbar-MainIndustries {
+    text-align: center;
+    color: white;
+    background-image: url('/images/main-Industries/header_image___contact.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.topbar-Retail {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Retail/website-shopping-malls-banner-one-world-trade.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.topbar-Corporate {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Corporate/website-hero-banner-corporate.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.topbar-Healthcare {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Healthcare/website-industry-healthcare-banner-hero.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.topbar-Hospitality {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Hospitality/hs\ hero.webp');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.topbar-Transportation {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Transportation/website-transportation-banner.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+}
+
+.topbar-Ecosystem {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Ecosystem/website-hero-partner-ecosystem.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: auto;
+}
+
+.topbar-AboutUs {
+    text-align: center;
+    color: white;
+    background-image: url('/images/About-us/About_Us_Page_Header_Image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding-bottom: 50px;
+}
+
+.topbar-Resources {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Resources/resources-page_hero-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding-bottom: 50px;
+}
+
+.container-fluid-header2 h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container-fluid-header2 p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Resources h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Resources p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-AboutUs h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-AboutUs p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.section-AboutUs {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.topbar-Ecosystem h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Ecosystem p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Transportation {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Transportation h1 {
+    text-align: center;
+    margin-right: 30px;
+    padding-left: 50px;
+    font-size: 44px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Hospitality h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 44px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Healthcare h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 44px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Corporate h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 44px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Retail h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+
+.topbar-MainIndustries h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-MainIndustries p {
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+    margin-bottom: 0px;
+}
+
+.topbar-BEE p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-BEE h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Security h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Security p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Businessintellgience h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Businessintellgience p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Intelligentparking h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Intelligentparking p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Locationsharing h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Locationsharing p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Geofencing h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Geofencing p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Proximitymessaging h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Proximitymessaging p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Mapsprofiles h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Mapsprofiles p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Assettracking h1 {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Assettracking p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Outdoorindoor h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Outdoorindoor p {
+    padding-bottom: 0px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-MainUsecase h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-MainUsecase p {
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Ourplatform h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Ourplatform p {
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Indoormapping h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Indoormapping p {
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Indoorpositioning h1 {
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.topbar-Indoorpositioning p {
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container-fluid-maps-support {
+    padding-bottom: 30px;
+}
+
+.maps__support {
+    margin: auto;
+}
+
+.row__team img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.row__team {
+    margin-top: 30px;
+}
+
+.team {
+    padding-bottom: 50px;
+}
+
+.display__app-mobile p {
+    font-size: 28px;
+    font-weight: 300;
+    color: #5a5f6f;
+}
+
+.display__app-mobile a {
+    text-decoration: none;
+    color: #e3374e;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.keys {
+    background-image: url('/images/Our-platform/Key-benefit/background-grey.png');
+    background-repeat: none;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.card-MainIndustries {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    background-color: #f1f1f3;
+}
+
+.logo p {
+    padding-left: 8rem;
+}
+
+.logo img {
+    margin-left: 1em;
+    width: 90.89px;
+    height: 60.89px;
+    margin-top: 10px;
+}
+
+.logo-Corporate {
+    background-color: #f1f1f3;
+}
+
+.logo-Corporate p {
+    padding-left: 8rem;
+}
+
+.logo-Corporate img {
+    margin-left: 1em;
+    width: 150px;
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 3em;
+}
+
+.logo-Healthcare {
+    background-color: #f1f1f3;
+}
+
+.logo-Healthcare p {
+    padding-left: 8rem;
+}
+
+.logo-Healthcare img {
+    margin-left: 1em;
+    width: 150px;
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 3em;
+}
+
+.card {
+    border-radius: 6px;
+    box-shadow: 0px 7px 32px -7px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    box-shadow: 3px 7px 12px 3px rgb(194, 187, 187);
+    transition: 0.2s;
+}
+
+.card__row1 {
+    background-image: url('/images/main-Industries/top-industries/backgrounds-website-industries-shoppingmalls.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.card__row2 {
+    background-image: url('/images/main-Industries/top-industries/AnyConv.com__backgrounds-website-industries-digitalworkplace.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.card__row3 {
+    background-image: url('/images/main-Industries/top-industries/AnyConv.com__backgrounds-website-industries-healthcare.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.card__row4 {
+    background-image: url('/images/main-Industries/top-industries/AnyConv.com__backgrounds-website-industries-hospitality.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+}
+
+.card__row5 {
+    background-image: url('/images/main-Industries/top-industries/backgrounds-website-industries-transportation.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+}
+
+.card__row6 {
+    background-image: url('/images/main-Industries/top-industries/AnyConv.com__backgrounds-website-industries-more.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+}
+
+.section-Retail {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-Corporate {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-Healthcare {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-Hospitality {
+    padding-top: 5rem;
+}
+
+.section-Transportation {
+    padding-top: 5rem;
+}
+
+.section-Ecosystem {
+    padding-top: 5rem;
+}
+
+.section-Resources p {
+    color: #3c3c7c;
+}
+
+.row__section-Resources {
+    padding-top: 5rem;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+}
+
+.row__section-Resources a {
+    color: #E3374E;
+    text-decoration: none;
+}
+
+.display__section-Resources:hover {
+    box-shadow: 5px 5px 5px 5px rgb(230, 229, 229);
+    transition: 0.2s;
+}
+
+.display__section-Resources {
+    border: 1px solid #e3e7ea;
+    border-radius: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100%;
+}
+
+.display__section-Resources img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.display__section-Resources p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.display__section-Resources h5 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row__section-Resources:nth-child(2) {
+    padding-top: 0px;
+}
+
+.contact-via a {
+    color: #E3374E;
+}
+
+.contact-via a:hover {
+    text-decoration: none;
+    color: #f45454;
+}
+
+.contact-via {
+    padding-bottom: 50px;
+}
+
+.container__Contact {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.row__Contact form {
+    background-color: #fff;
+    box-shadow: 0px 7px 32px -7px rgba(0, 0, 0, 0.2);
+    padding: 8px 23px 25px 25px;
+}
+
+.row__Contact form:hover {
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 5px 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.2s ease-in-out;
+}
+
+.row__Contact a {
+    color: #E3374E;
+}
+
+.row__Contact a:hover {
+    text-decoration: none;
+}
+
+.form-group-Contact {
+    margin-bottom: 0rem;
+    font-size: 12px;
+}
+
+.form-group-Contact a:hover {
+    color: rgb(243, 54, 54);
+}
+
+.right__Contact {
+    padding-left: 70px;
+}
+
+.right__Contact i {
+    padding-right: 10px;
+    color: #E3374E;
+}
+
+.container__Contact hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.link {
+    background-color: #e3dee4;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+.container__display1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about img {
+    width: 119px;
+    width: 119px;
+    padding-right: 30px;
+}
+
+.about {
+    margin-top: 40px;
+    margin-left: 10em;
+}
+
+.btn-videos {
+    margin-inline-start: 70px;
+}
+
+.btn-videos a:hover {
+    text-decoration: none;
+}
+
+.link a {
+    color: #0c2b6d;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 15px;
+}
+
+.link a:hover {
+    color: #e3374e;
+    text-decoration: none;
+}
+
+.facts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__facts {
+    padding-top: 30px;
+}
+
+.container__map-creation,
+.container__map-control,
+.container__indoor-position {
+    padding-bottom: 50px;
+}
+
+.container__map-creation img {
+    width: 310px;
+    height: 334.8px;
+}
+
+.container__map-control img {
+    width: 375px;
+    height: 330px;
+    margin-left: 100px;
+}
+
+.container__indoor-position img {
+    width: 440px;
+    height: 342px;
+}
+
+.block {
+    background-color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block img {
+    margin-top: 20px;
+}
+
+.block h2 {
+    padding-bottom: 20px;
+}
+
+.block p {
+    color: #5a5f6f;
+}
+
+.fa-location-arrow,
+.fa-search-location,
+.fa-chart-line,
+.fa-building,
+.fa-network-wired,
+.fa-share-alt {
+    font-size: 3em;
+    color: #e3374e;
+    margin: 2rem;
+    padding-bottom: 10px;
+}
+
+.social {
+    padding-bottom: 20px;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.container-fluid-form {
+    background-color: #3c3c7c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.schedule {
+    background-color: #3c3c7c;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.schedule button:hover {
+    color: #e3374e;
+}
+
+.form-group p {
+    font-size: 13px;
+}
+
+.text-link:hover {
+    text-decoration: none;
+}
+
+.form-policy-link {
+    color: white;
+}
+
+.form-policy-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.container-news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.news:hover {
+    text-decoration: none;
+}
+
+.blogs:hover {
+    text-decoration: none;
+}
+
+.container-fluid-feature {
+    background-color: #dcdcdc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-size {
+    padding-top: 50px;
+    background-color: #2c2b2b;
+    border-top: #ff7200 2px solid;
+}
+
+.footer-size ul {
+    padding-inline-start: 0px;
+}
+
+.footer-size li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #fa6f12;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.term:hover {
+    text-decoration: none;
+    color: white
+}
+
+.origin {
+    text-align: right;
+    color: white;
+}
+
+.term {
+    font-size: 15px;
+}
+
+.origin {
+    font-size: 15px;
+}
+
+.social h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.social p {
+    font-size: 12px;
+    color: white;
+}
+
+.fa-map-marker-alt {
+    color: #f45454;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 2rem;
+    padding-right: 10px;
+}
+
+.leverage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid-under-header h2 {
+    padding-bottom: 20px;
+}
+
+.block a {
+    text-decoration: none;
+    color: black;
+}
+
+.block-row:hover {
+    box-shadow: 0px 0px 20px 20px rgb(204, 204, 204);
+    transition: 0.2s;
+}
+
+.block-row img {
+    width: 125px;
+    height: 125px;
+}
+
+.block-simple img {
+    width: 125px;
+    height: 125px;
+}
+
+.block-simple {
+    padding-bottom: 50px;
+}
+
+.block-simple p {
+    padding-bottom: 10px;
+}
+
+.block-row {
+    margin-bottom: 10px;
+}
+
+.container-fluid-news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-news img {
+    width: 217px;
+    height: 122px;
+    padding-top: 10px;
+}
+
+.news-extra {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__news-extra a {
+    text-decoration: none;
+    color: black;
+}
+
+.row__news-extra img {
+    width: 100%;
+    max-height: 265px;
+}
+
+.container-fluid-news-AboutUs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__news-AboutUs a:hover {
+    text-decoration: none;
+}
+
+.btn-news-AboutUs {
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.display__extra {
+    border-radius: 6px;
+    box-shadow: 0px 7px 32px -7px rgba(0, 0, 0, 0.15);
+}
+
+.display__extra:hover {
+    box-shadow: 3px 7px 12px 3px rgb(230, 224, 224);
+    transition: 0.2s;
+}
+
+.display__extra p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display__extra h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display__extra h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display__extra h4 {
+    margin-top: 20px;
+}
+
+.btn-news-extra {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.btn-light {
+    border-radius: 10px;
+    background-color: #ff7200;
+    border-color: #ff7200 !important;
+    color: white !important;
+}
+
+.btn-light:hover {
+    background-color: #ff7200;
+}
+
+#btn-header2 {
+    border-radius: 7px;
+    border: 3px solid white;
+}
+
+#btn-header2:hover {
+    color: #e3374e;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.container-fluid-feature img {
+    padding-inline-start: 30px;
+}
+
+.container-fluid-info {
+    background-color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid-info a {
+    color: #e3374e;
+}
+
+.container-fluid-info a:hover {
+    text-decoration: none;
+}
